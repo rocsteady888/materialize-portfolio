@@ -1,0 +1,52 @@
+[debug] [2018-05-29T01:54:34.803Z] ----------------------------------------------------------------------
+[debug] [2018-05-29T01:54:34.806Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-05-29T01:54:34.806Z] CLI Version:   3.18.5
+[debug] [2018-05-29T01:54:34.806Z] Platform:      darwin
+[debug] [2018-05-29T01:54:34.807Z] Node Version:  v8.9.4
+[debug] [2018-05-29T01:54:34.808Z] Time:          Mon May 28 2018 21:54:34 GMT-0400 (EDT)
+[debug] [2018-05-29T01:54:34.808Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-29T01:54:34.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-29T01:54:34.820Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ryanoconnor/Documents/GitRepo/Portfolios/materialize-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-29T01:54:37.160Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-29T01:54:37.160Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/voQtgjfg12I0kLUUNN7nuzQhduBVk9DOsKypE5nnFBI',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon May 28 2018 21:54:37 GMT-0400 (EDT)
+[debug] [2018-05-29T01:54:37.591Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T01:54:37.610Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Mon May 28 2018 21:54:37 GMT-0400 (EDT)
+[debug] [2018-05-29T01:54:38.467Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-05-29T01:55:31.477Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+  
+ Mon May 28 2018 21:55:31 GMT-0400 (EDT)
+[debug] [2018-05-29T01:55:31.728Z] <<< HTTP RESPONSE 200
